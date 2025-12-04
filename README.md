@@ -48,6 +48,7 @@ Model Waveform
 <img width="703" height="679" alt="image" src="https://github.com/user-attachments/assets/e7c7c7f8-ccf2-41ac-b1f3-325989941a6f" />
 
 Program
+```
 Am=7.5;
 fm=648;
 fc=6480;
@@ -65,6 +66,7 @@ S2=(Ac-m).*cos(2*3.14*fc*t);
 S=S1-S2;
 subplot(3,1,3);
 plot(t,S);
+```
 
 Output Graph
 ![WhatsApp Image 2025-10-17 at 22 50 12_b1d03e53](https://github.com/user-attachments/assets/8c467b4d-e37e-4758-9eb1-a8c225e17410)
